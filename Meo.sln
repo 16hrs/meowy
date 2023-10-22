@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meo.API", "Meo.API", "{B033
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meo.Mobile", "Meo.Mobile\Meo.Mobile\Meo.Mobile.csproj", "{514BD689-B912-4B1A-A912-38BBA23A505C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meo.Mobile.Blazor", "Meo.Mobile\Meo.Mobile.Blazor\Meo.Mobile.Blazor.csproj", "{BB61D24A-2977-44D5-B7A6-92337C0242E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meo.Mobile.Database", "Meo.Mobile\Meo.Mobile.Database\Meo.Mobile.Database.csproj", "{D77CE028-A24C-4179-B110-D4AFDDB566DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +23,22 @@ Global
 		{514BD689-B912-4B1A-A912-38BBA23A505C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{514BD689-B912-4B1A-A912-38BBA23A505C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{514BD689-B912-4B1A-A912-38BBA23A505C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB61D24A-2977-44D5-B7A6-92337C0242E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB61D24A-2977-44D5-B7A6-92337C0242E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB61D24A-2977-44D5-B7A6-92337C0242E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB61D24A-2977-44D5-B7A6-92337C0242E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77CE028-A24C-4179-B110-D4AFDDB566DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77CE028-A24C-4179-B110-D4AFDDB566DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77CE028-A24C-4179-B110-D4AFDDB566DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77CE028-A24C-4179-B110-D4AFDDB566DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{514BD689-B912-4B1A-A912-38BBA23A505C} = {E815A30E-3BEF-4991-87B8-4F618351E66F}
+		{BB61D24A-2977-44D5-B7A6-92337C0242E9} = {E815A30E-3BEF-4991-87B8-4F618351E66F}
+		{D77CE028-A24C-4179-B110-D4AFDDB566DF} = {E815A30E-3BEF-4991-87B8-4F618351E66F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61080DC0-998F-411C-8F6E-058DA5FEB44E}

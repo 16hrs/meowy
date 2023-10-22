@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using Meo.Mobile.Data;
+﻿using Meo.Mobile.Blazor;
 
 namespace Meo.Mobile;
 
@@ -8,18 +7,13 @@ public static class MauiProgram
     public static MauiApp CreateMauiApp()
     {
         var builder = MauiApp.CreateBuilder();
-        builder
-            .UseMauiApp<App>()
-            .ConfigureFonts(fonts => { fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular"); });
-
+        builder.UseMauiApp<App>();
         builder.Services.AddMauiBlazorWebView();
+        builder.Services.AddBlazor();
 
 #if DEBUG
         builder.Services.AddBlazorWebViewDeveloperTools();
-        builder.Logging.AddDebug();
 #endif
-
-        builder.Services.AddSingleton<WeatherForecastService>();
 
         return builder.Build();
     }
