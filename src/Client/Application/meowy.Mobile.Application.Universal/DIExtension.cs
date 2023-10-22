@@ -1,7 +1,7 @@
-using meowy.Mobile.Application.Universal.Interfaces;
+using meowy.Client.Application.Shared.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace meowy.Mobile.Application.Universal;
+namespace meowy.Client.Application;
 
 public static class DIExtension
 {

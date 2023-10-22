@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meowy.Client.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meowy.Client.Presentation.Hybrid", "src\Client\Presentation\meowy.Client.Presentation.Hybrid\meowy.Client.Presentation.Hybrid.csproj", "{96DA6FAA-C9E8-456A-AFE9-AFF1B1071AE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meowy.Client.Application.Shared", "src\Client\Application\meowy.Client.Application.Shared\meowy.Client.Application.Shared.csproj", "{70307734-E681-4DE9-B701-826C48063DE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{96DA6FAA-C9E8-456A-AFE9-AFF1B1071AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96DA6FAA-C9E8-456A-AFE9-AFF1B1071AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96DA6FAA-C9E8-456A-AFE9-AFF1B1071AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70307734-E681-4DE9-B701-826C48063DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70307734-E681-4DE9-B701-826C48063DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70307734-E681-4DE9-B701-826C48063DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70307734-E681-4DE9-B701-826C48063DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{CFBF7E50-55BF-440A-A9EF-CE179E88C184} = {B05BB3CB-7951-4BF3-8D9C-5465BB6D49C2}
 		{2B2B0649-A63F-4641-B2B3-712D66A227B7} = {E40A3AD8-3716-49E4-8B72-0D49B7269C3E}
 		{96DA6FAA-C9E8-456A-AFE9-AFF1B1071AE9} = {CFBF7E50-55BF-440A-A9EF-CE179E88C184}
+		{70307734-E681-4DE9-B701-826C48063DE4} = {E40A3AD8-3716-49E4-8B72-0D49B7269C3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61080DC0-998F-411C-8F6E-058DA5FEB44E}

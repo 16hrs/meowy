@@ -1,8 +1,8 @@
-using meowy.Mobile.Application.Universal.Errors;
-using meowy.Mobile.Application.Universal.Errors.DeviceErrors;
+using meowy.Client.Application.Shared.Errors;
+using meowy.Client.Application.Shared.Errors.DeviceErrors;
 using Microsoft.Maui.ApplicationModel;
 
-namespace meowy.Mobile.Application.Universal.Extensions;
+namespace meowy.Client.Application.Shared.Extensions;
 
 public static class ApplicationExceptionExtensions
 {

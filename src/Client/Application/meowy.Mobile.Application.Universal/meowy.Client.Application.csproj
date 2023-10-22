@@ -17,4 +17,8 @@
         <Folder Include="Services\"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\meowy.Client.Application.Shared\meowy.Client.Application.Shared.csproj" />
+    </ItemGroup>
+
 </Project>

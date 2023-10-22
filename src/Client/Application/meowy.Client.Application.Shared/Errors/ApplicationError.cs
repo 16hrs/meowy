@@ -1,4 +1,4 @@
-namespace meowy.Mobile.Application.Universal.Errors;
+namespace meowy.Client.Application.Shared.Errors;
 
 public record ApplicationError(
     bool Exception,

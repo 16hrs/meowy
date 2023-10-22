@@ -1,8 +1,8 @@
 using LanguageExt;
-using meowy.Mobile.Application.Universal.Errors;
+using meowy.Client.Application.Shared.Errors;
 using Microsoft.Maui.Devices.Sensors;
 
-namespace meowy.Mobile.Application.Universal.Interfaces;
+namespace meowy.Client.Application.Shared.Interfaces;
 
 public interface ILocationService
 {
