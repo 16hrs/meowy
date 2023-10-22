@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Meo.Mobile;
+namespace Meo.Client;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

@@ -1,9 +1,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using MudBlazor.Services;
 
-namespace Meo.Mobile.Blazor;
+namespace Meo.Client.Blazor;
 
-public static class ServiceExtension
+public static class DependencyInjection
 {
     public static IServiceCollection AddBlazor(this IServiceCollection services)
     {

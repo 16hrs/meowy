@@ -14,4 +14,9 @@
     </ItemGroup>
 
 
+    <ItemGroup>
+        <ProjectReference Include="..\Meo.Mobile.Core\Meo.Client.Core\Meo.Client.Core.csproj"/>
+    </ItemGroup>
+
+
 </Project>

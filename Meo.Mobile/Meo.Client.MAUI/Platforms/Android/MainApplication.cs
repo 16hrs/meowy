@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Meo.Mobile;
+namespace Meo.Client;
 
 [Application]
 public class MainApplication : MauiApplication

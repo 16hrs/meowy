@@ -1,9 +1,9 @@
 using SQLite;
 
-namespace Meo.Mobile.Database.Models;
+namespace Meo.Client.Infra.Database.Models;
 
-[Table("LocationPings")]
-internal record LocationPing
+[Table("LocationUpdates")]
+internal record LocationUpdate
 {
     [PrimaryKey]
     [AutoIncrement]

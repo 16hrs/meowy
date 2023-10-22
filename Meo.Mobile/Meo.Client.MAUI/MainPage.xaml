@@ -2,8 +2,8 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:blazor="clr-namespace:Meo.Mobile.Blazor;assembly=Meo.Mobile.Blazor"
-             x:Class="Meo.Mobile.MainPage"
+             xmlns:blazor="clr-namespace:Meo.Client.MAUI.Blazor;assembly=Meo.Client.MAUI.Blazor"
+             x:Class="Meo.Client.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
     <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">

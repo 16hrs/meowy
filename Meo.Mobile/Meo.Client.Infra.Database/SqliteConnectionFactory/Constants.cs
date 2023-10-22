@@ -1,10 +1,10 @@
 using SQLite;
 
-namespace Meo.Mobile.Database.Sqlite;
+namespace Meo.Client.Infra.Database.Sqlite;
 
 static internal class Constants
 {
-    private const string Db_Filename = "MeoMobile.db3";
+    private const string Db_Filename = "MeoStorage.db3";
 
     internal const SQLiteOpenFlags Flags =
         // Open the database in read/write mode.

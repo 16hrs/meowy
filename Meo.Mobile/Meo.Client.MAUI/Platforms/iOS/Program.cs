@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace Meo.Mobile;
+namespace Meo.Client;
 
 public static class Program
 {

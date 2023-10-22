@@ -1,6 +1,6 @@
-﻿using Meo.Mobile.Blazor;
+﻿using Meo.Client.Blazor;
 
-namespace Meo.Mobile;
+namespace Meo.Client;
 
 public static class MauiProgram
 {

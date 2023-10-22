@@ -1,4 +1,4 @@
-﻿namespace Meo.Mobile;
+﻿namespace Meo.Client;
 
 public partial class App : Application
 {
