@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using MudBlazor.Services;
 
-namespace Meo.Client.Blazor;
+namespace Meo.Client.MAUI.Blazor;
 
 public static class DependencyInjection
 {

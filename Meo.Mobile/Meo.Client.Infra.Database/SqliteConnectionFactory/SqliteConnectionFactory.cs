@@ -2,7 +2,7 @@ using Meo.Client.Core.Abstractions;
 using Meo.Client.Infra.Database.Models;
 using SQLite;
 
-namespace Meo.Client.Infra.Database.Sqlite;
+namespace Meo.Client.Infra.Database.SqliteConnectionFactory;
 
 public class SqliteConnectionFactory : ISqliteConnectionFactory
 {

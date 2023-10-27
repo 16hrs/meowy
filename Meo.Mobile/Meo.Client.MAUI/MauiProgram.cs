@@ -1,4 +1,4 @@
-﻿using Meo.Client.Blazor;
+﻿using Meo.Client.MAUI.Blazor;
 
 namespace Meo.Client;
 

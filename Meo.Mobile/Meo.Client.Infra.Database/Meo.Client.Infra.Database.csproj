@@ -15,6 +15,7 @@
 
 
     <ItemGroup>
+        <ProjectReference Include="..\Meo.Clients.Core\Meo.Client.Core\Meo.Client.Core.csproj"/>
         <ProjectReference Include="..\Meo.Mobile.Core\Meo.Client.Core\Meo.Client.Core.csproj"/>
     </ItemGroup>
 

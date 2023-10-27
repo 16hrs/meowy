@@ -1,6 +1,6 @@
 using SQLite;
 
-namespace Meo.Client.Infra.Database.Sqlite;
+namespace Meo.Client.Infra.Database.SqliteConnectionFactory;
 
 static internal class Constants
 {
